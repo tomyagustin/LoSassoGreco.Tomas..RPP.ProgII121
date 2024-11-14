@@ -1,0 +1,3 @@
+interface Exploracion{
+    void explorar();
+}
