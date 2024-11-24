@@ -36,10 +36,6 @@ class AgenciaEspacial {
             {
                 ((NaveExploracion) nave).explorar();
             } 
-            else if (nave instanceof Carguero) 
-            {
-                ((Carguero) nave).explorar();
-            } 
             else if (nave instanceof CruceroEstelar) 
             {
                 System.out.println("El crucero estelar " + nave.getNombre() + " no puede participar en misiones de exploracion.");
