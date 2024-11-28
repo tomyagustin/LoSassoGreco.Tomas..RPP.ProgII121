@@ -10,6 +10,10 @@ public class Carguero extends Nave{
         this.capacidadCarga = capacidadCarga;
     }
     
+    public void explorar(){
+        System.out.println("El carguero: " + nombre + "empezo su exploracion");
+    }
+    
     @Override
     public String toString(){
         return "Carguero - Nombre: " + nombre + ", Capacidad Tripulacion: " + capacidadTripulacion +

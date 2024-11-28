@@ -7,7 +7,7 @@ public class NaveExploracion extends Nave implements Exploracion{
     }
     
     public void explorar(){
-        System.out.println("La nave de exploracion " + nombre + "empezo su exploracion");
+        System.out.println("La nave de exploracion: " + nombre + "empezo su exploracion");
     }
     
     @Override

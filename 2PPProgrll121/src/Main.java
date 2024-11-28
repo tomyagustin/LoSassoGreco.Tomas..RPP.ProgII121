@@ -3,9 +3,9 @@ public class Main {
         try {
             AgenciaEspacial agencia = new AgenciaEspacial();
 
-            NaveExploracion exploracion1 = new NaveExploracion("Explorador 1", 5, 2025, tipoMision.CARTOGRAFIA);
-            Carguero carguero1 = new Carguero("Carguero 1", 3, 2023, 200);
-            CruceroEstelar crucero1 = new CruceroEstelar("Star Cruise", 10, 2024, 500);
+            NaveExploracion exploracion1 = new NaveExploracion("Explorador 1 ", 5, 2025, tipoMision.CARTOGRAFIA);
+            Carguero carguero1 = new Carguero("Carguero 1 ", 3, 2023, 200);
+            CruceroEstelar crucero1 = new CruceroEstelar("Star Cruise ", 10, 2024, 500);
 
             agencia.agregarNave(exploracion1);
             agencia.agregarNave(carguero1);
