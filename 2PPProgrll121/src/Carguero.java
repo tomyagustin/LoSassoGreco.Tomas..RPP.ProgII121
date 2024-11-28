@@ -1,4 +1,4 @@
-public class Carguero extends Nave{
+public class Carguero extends Nave implements Exploracion{
     private int capacidadCarga;
     
     public Carguero(String nombre, int capacidadTripulacion, int anioLanzamiento, int capacidadCarga)
